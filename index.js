@@ -50,16 +50,16 @@ async function run() {
             res.json(result);
         });
         // get a specific products =============> End
-
-
     }
-
     finally {
 
-
     }
-
 }
+
+app.get("/", (req,res) =>{
+    res.send("Running");
+})
+
 run().catch(console.dir());
 
 app.listen(port, () => {
