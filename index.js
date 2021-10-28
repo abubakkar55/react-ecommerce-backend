@@ -52,7 +52,6 @@ async function run() {
         // get a specific products =============> End
     }
     finally {
-
     }
 }
 
